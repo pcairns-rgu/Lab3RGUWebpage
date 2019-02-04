@@ -30,3 +30,17 @@ nav>ul>li a {
 li a:hover{
     color: #363636;
 }
+
+/* IMAGE SIZING CSS */
+#csdmlogo{
+    width: 300px;
+}
+
+#banner{
+    max-width: 960px;
+    max-height: 250px;
+}
+
+#hos{
+    width: 200px;
+}
