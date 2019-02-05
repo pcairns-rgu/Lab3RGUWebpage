@@ -43,6 +43,8 @@ li a:hover{
 
 #hos{
     width: 200px;
+    float: left;
+    padding-right: 10px;
 }
 
 /* TEXT STYLING */
@@ -59,4 +61,54 @@ p, h2, h3, h4, h5, a{
 h3, h4, h5{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+}
+
+/* COLOURINGS */
+#news{
+   background-color: #DBC9DF;
+}
+
+#events{
+  background-color: #782A7E;
+}
+
+footer{
+  background-color: #363636;
+}
+
+aside{
+  color: white;
+}
+
+
+/* MARGIN FIXES */
+aside p,h3,h4{
+  margin: 0;
+}
+
+aside h3{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside h4{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside p{
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside(
+  padding-right: 0px !important;
+  margin-top: -5px !important;
+)
+
+main{
+  padding-right: 0px !important;
 }
